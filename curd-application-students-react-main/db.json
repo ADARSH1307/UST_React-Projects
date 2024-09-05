@@ -1,0 +1,18 @@
+{
+  "students": [
+    {
+      "id": "3609",
+      "rollNumber": "23",
+      "name": "sharath",
+      "checkinTime": "10:55:15 am",
+      "checkoutTime": "10:56:46 am"
+    },
+    {
+      "id": "b6fc",
+      "rollNumber": "2",
+      "name": "kiran",
+      "checkinTime": "11:01:18 am",
+      "checkoutTime": "11:01:20 am"
+    }
+  ]
+}

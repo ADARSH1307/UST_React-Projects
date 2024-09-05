@@ -1,0 +1,100 @@
+/* DashboardLayout.css */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Container for the dashboard */
+.dashboard-container {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  /* Style the navigation bar */
+  .nav {
+    width: 300px;
+    margin: 20px auto;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #6c757d;
+    list-style-type: none; /* Remove dots */
+    padding: 0; /* Remove default padding */
+  }
+  
+  /* Profile section styling */
+  .profile-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    align-items: center;
+/* padding-left: 80px; */
+    padding: 20px 80px;
+    background-color: #0b0c0e;
+  }
+  
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .username {
+    font-size: 1rem;
+    color: white;
+  }
+  
+  /* Style the navigation items */
+  .nav-item {
+    width: 100%;
+    margin: 5px 0;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding doesn't affect total size */
+  }
+  
+  .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .nav-link:hover {
+    background-color: #0056b3;
+    color: #fff;
+  }
+  
+  .nav-link.disabled {
+    color: #6c757d;
+    pointer-events: none;
+    background-color: #e9ecef;
+  }
+  
+  /* Content styling */
+  .content {
+    margin-left: 220px; /* Offset by the width of the nav plus padding */
+    padding: 20px;
+    flex-grow: 1;
+    overflow-y: auto; /* Allow content to scroll */
+    height: 100vh; /* Full height */
+    box-sizing: border-box;
+    
+ 
+  }
+  
+  .content h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+  }
